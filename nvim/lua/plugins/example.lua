@@ -1,11 +1,11 @@
 return {
-  { "shaunsingh/nord.nvim" },
+    { "shaunsingh/nord.nvim" },
+    { "mg979/vim-visual-multi" },
 
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "nord",
+    {
+        "LazyVim/LazyVim",
+        opts = {
+            colorscheme = "nord",
+        },
     },
-  },
-  { "  -- Configure LazyVim to load gruvbox" },
 }
