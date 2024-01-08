@@ -12,6 +12,6 @@ return {
 			},
 		})
 
-		vim.keymap.set("n", "<leader>f", vim.lsp.buf.format, {})
+        vim.keymap.set("n", "<C-f>", "<cmd>lua vim.lsp.buf.format({ async = true })<CR>", { noremap = true })
 	end,
 }
